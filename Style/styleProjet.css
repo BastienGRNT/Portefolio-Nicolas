@@ -1,0 +1,57 @@
+/* styleProjet.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #2b4b6c;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.project-info {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: left;
+}
+
+.project-info img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.project-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-info li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project-info a {
+    color: #2b4b6c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    text-decoration: underline;
+}
