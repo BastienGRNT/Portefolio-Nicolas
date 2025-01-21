@@ -36,14 +36,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #2b4b6c;
     font-weight: 500;
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     transition: color 0.3s ease-in-out;
 }
 
-nav ul li a.active,
+nav ul li a.active{
+    color: #ee728d;
+}
 nav ul li a:hover {
-    color: #d63384;
+    color: #ee728d;
+    font-weight: bold;
 }
 
 /* Centrage parfait des titres Développeur | Designer */
@@ -55,24 +61,27 @@ nav ul li a:hover {
     text-align: center;
     font-size: 26px;
     font-weight: 700;
-    color: #333;
+    color: #2b4b6c;
 }
 
 .title-link {
     text-decoration: none;
     font-weight: bold;
-    color: #333;
+    color: #2b4b6c;
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     transition: color 0.3s ease-in-out;
 }
 
 .title-link:hover {
-    color: #d63384;
+    color: #ee728d;
 }
 
 .separator {
     margin: 0 15px;
     font-size: 28px;
-    color: #555;
+    color: #2b4b6c;
     font-weight: bold;
 }
 
